@@ -1,0 +1,250 @@
+# ==========================================================
+# STELSION - Production .gitignore
+# ==========================================================
+
+###############################
+# OS Files
+###############################
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+Icon?
+*.lnk
+
+###############################
+# IDE / Editors
+###############################
+.vscode/
+.idea/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.history/
+
+###############################
+# Environment Variables
+###############################
+.env
+.env.*
+!.env.example
+!.env.template
+!.env.local.example
+
+###############################
+# Secrets
+###############################
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.secret
+secrets/
+credentials/
+service-account*.json
+firebase-admin*.json
+
+###############################
+# Python
+###############################
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.pyo
+
+###############################
+# Python Virtual Environments
+###############################
+venv/
+.venv/
+env/
+ENV/
+.python-version
+
+###############################
+# Python Tooling
+###############################
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+.pyre/
+.cache/
+
+###############################
+# Jupyter
+###############################
+.ipynb_checkpoints/
+
+###############################
+# Logs
+###############################
+logs/
+log/
+*.log
+*.out
+*.err
+
+###############################
+# Node.js
+###############################
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/
+.yarn-cache/
+.pnp.*
+
+###############################
+# React / Vite / Next
+###############################
+dist/
+build/
+.next/
+out/
+.vercel/
+coverage/
+vite.svg
+
+###############################
+# TypeScript
+###############################
+*.tsbuildinfo
+
+###############################
+# Package Managers
+###############################
+package-lock.json.bak
+yarn.lock.bak
+pnpm-lock.yaml.bak
+
+###############################
+# ML Models
+###############################
+saved_models/
+checkpoints/
+weights/
+models/checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+
+###############################
+# Datasets
+###############################
+datasets/
+data/
+raw_data/
+processed_data/
+cache/
+downloads/
+
+###############################
+# Astronomy Data
+###############################
+*.fits
+*.fit
+*.fits.gz
+*.hdf5
+*.h5
+*.npy
+*.npz
+*.csv.tmp
+
+###############################
+# Database
+###############################
+*.db
+*.sqlite
+*.sqlite3
+instance/
+
+###############################
+# Uploads
+###############################
+uploads/
+temp/
+tmp/
+cache/
+
+###############################
+# Docker
+###############################
+docker-compose.override.yml
+
+###############################
+# Build Artifacts
+###############################
+*.o
+*.obj
+*.dll
+*.exe
+*.class
+
+###############################
+# Archives
+###############################
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+###############################
+# Generated Reports
+###############################
+reports/
+exports/
+screenshots/
+recordings/
+
+###############################
+# Runtime Files
+###############################
+*.pid
+*.seed
+
+###############################
+# Testing
+###############################
+playwright-report/
+test-results/
+coverage-final.json
+
+###############################
+# Misc
+###############################
+*.bak
+*.tmp
+*.temp
+*.orig
+*.rej
+
+###############################
+# Mac/Linux Temporary
+###############################
+.Trashes
+.fseventsd
+.Spotlight-V100
+
+###############################
+# Windows Temporary
+###############################
+$RECYCLE.BIN/
+
+###############################
+# Keep Empty Folders
+###############################
+!.gitkeep
