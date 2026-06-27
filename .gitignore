@@ -131,7 +131,6 @@ pnpm-lock.yaml.bak
 ###############################
 # ML Models
 ###############################
-saved_models/
 checkpoints/
 weights/
 models/checkpoints/
@@ -248,3 +247,8 @@ $RECYCLE.BIN/
 # Keep Empty Folders
 ###############################
 !.gitkeep
+
+# Exclude the saved_models folder and its contents from gitignore so they are tracked
+# This must be at the bottom to override global *.h5 and *.pt rules
+!saved_models/
+!saved_models/**
